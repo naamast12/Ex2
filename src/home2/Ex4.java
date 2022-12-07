@@ -12,7 +12,6 @@ public class Ex4 {
         int length = arr.length;
         for (int i = 0; i < ((arr.length-1)) ; i++)
         {
-            if (i==0) break;
             if (arr[i]>=arr[i+1])
             {
                 check = i;
